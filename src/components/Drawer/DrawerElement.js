@@ -15,8 +15,8 @@ export const DrawerWrapper = styled(Drawer)`
     }
     .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
         background-color: unset !important;
-        height: calc(100% - 64px);
-        top: 64px;
+        height: calc(100% - 128px);
+        top: 63px;
     }
 `
 

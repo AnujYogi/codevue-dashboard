@@ -22,4 +22,5 @@ export const HomeLink = styled(Link)`
     text-decoration: none;
     color: inherit;
     z-index: 1201;
+    padding: 6px 8px;
 `

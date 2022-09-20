@@ -5,6 +5,7 @@ import { AppDrawer } from '../Drawer';
 
 export const Navbar = () => {
 
+  const companyName = "Yogi's World"
   const buttonName = "explore";
   const openFrom = "left";
 
@@ -12,7 +13,7 @@ export const Navbar = () => {
     <Box>
       <HeaderWrapper position='static'>
         <Header>
-          <HomeLink to={"/"}>CodeVue</HomeLink>
+          <HomeLink to={"/"}>{companyName}</HomeLink>
           <AppDrawer buttonName = {buttonName} openFrom = {openFrom} />
         </Header>
       </HeaderWrapper>
