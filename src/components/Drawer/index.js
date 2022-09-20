@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import { ExploreButton, DrawerBox, LinkItemText, DrawerWrapper, LinkItem } from './DrawerElement';
-import { data } from "./DrawerItems";
+import { data } from "./DrawerUtils";
 
 export const AppDrawer = ({buttonName, openFrom }) => {
 
